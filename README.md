@@ -57,9 +57,22 @@ fluentd_ouputs: []
   #   port: 9200
   #   index_name: 'fluentd'
   #   type_name: 'fluentd'
+  # - type: 'rabbitmq'
+  #   match: '**'
+  #   host: 192.168.250.100
+  #   user: 'graylog'
+  #   pass: 'graylog'
+  #   vhost: '/'
+  #   format: 'json'
+  #   exchange: 'graylog'
+  #   exchange_type: 'direct'
+  #   exchange_durable: true
+  #   routing_key: 'graylog'
+  #   heartbeat: 10
 
 fluentd_plugins: []
   # - 'fluent-plugin-elasticsearch'
+  # - 'fluent-plugin-rabbitmq'
 
 fluentd_ulimits:
   - domain: 'root'
