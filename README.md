@@ -1,17 +1,14 @@
-Role Name
-=========
+# Role Name
 
 An [Ansible] role to install/configure [fluentd]
 
-Requirements
-------------
+## Requirements
 
 None
 
-Role Variables
---------------
+## Role Variables
 
-```
+```yaml
 ---
 # defaults file for ansible-fluentd
 fluentd_debian_repo_info:
@@ -93,15 +90,13 @@ fluentd_ulimits:
     value: 65536
 ```
 
-Dependencies
-------------
+## Dependencies
 
 None
 
-Example Playbook
-----------------
+## Example Playbook
 
-```
+```yaml
 ---
 - hosts: fluentd
   vars:
@@ -139,19 +134,20 @@ Example Playbook
     - role: ansible-fluentd
 ```
 
-License
--------
+## License
 
 BSD
 
-Author Information
-------------------
+## Author Information
 
 Larry Smith Jr.
-- [@mrlesmithjr]
-- http://everythingshouldbevirtual.com
-- mrlesmithjr [at] gmail.com
 
-[@mrlesmithjr]: <https://www.twitter.com/mrlesmithjr>
-[Ansible]: <https://www.ansible.com>
-[fluentd]: <http://www.fluentd.org/>
+-   [@mrlesmithjr]
+-   <http://everythingshouldbevirtual.com>
+-   mrlesmithjr [at] gmail.com
+
+[@mrlesmithjr]: https://www.twitter.com/mrlesmithjr
+
+[ansible]: https://www.ansible.com
+
+[fluentd]: http://www.fluentd.org/
