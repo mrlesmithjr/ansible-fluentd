@@ -1,3 +1,17 @@
+commit 7c4905d0a735177208ae9f09641c6a1959d40213
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Tue Jun 16 22:08:26 2020 -0400
+
+    Disabled Ubuntu 20.04 testing
+    
+    Apt repo doesn't work yet
+
+commit d8efebb4f377ea942ba67f9b60602ffa766483fa
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Tue Jun 16 21:54:35 2020 -0400
+
+    Fixed linting issue
+
 commit 39c2fb23428e7eb4a9fff82f7183a8e322c5ee21
 Author: Larry Smith Jr <mrlesmithjr@gmail.com>
 Date:   Tue Jun 16 20:27:01 2020 -0400
