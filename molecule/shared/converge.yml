@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: Include ansible-fluentd
+      include_role:
+        name: ansible-fluentd
