@@ -1,3 +1,9 @@
+commit 151121f7b5539cd57e10850b3d369389653ad8a2
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Tue Jun 16 22:08:57 2020 -0400
+
+    Added Debian as supported
+
 commit 7c4905d0a735177208ae9f09641c6a1959d40213
 Author: Larry Smith Jr <mrlesmithjr@gmail.com>
 Date:   Tue Jun 16 22:08:26 2020 -0400
