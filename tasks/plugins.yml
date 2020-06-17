@@ -1,5 +1,5 @@
 ---
-- name: plugins | Capturing Installed Plugins
+- name: plugins | Capturing Installed Plugins # noqa 306
   shell: td-agent-gem list | awk '{print $1}'
   become: true
   register: _fluentd_plugins_installed

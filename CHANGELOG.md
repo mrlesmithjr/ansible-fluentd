@@ -1,3 +1,11 @@
+commit 39c2fb23428e7eb4a9fff82f7183a8e322c5ee21
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Tue Jun 16 20:27:01 2020 -0400
+
+    Added new files from Cookiecutter template
+    
+    These files are all new which includes Molecule testing, etc.
+
 commit 0fc48aca41ce157ff240620c4eaaa71c7556ddbf
 Author: Larry Smith Jr <mrlesmithjr@gmail.com>
 Date:   Tue Jun 16 20:26:05 2020 -0400
