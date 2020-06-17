@@ -1,16 +1,19 @@
 ---
 # tasks file for ansible-fluentd
 
-- include: ulimits.yml
+- include_tasks: ulimits.yml
 
-- include: network_optimizations.yml
+- include_tasks: network_optimizations.yml
+  when: ansible_facts.virtualization_type != "docker"
 
-- include: debian.yml
-  when: >
-        ansible_os_family == "Debian"
+- include_tasks: debian.yml
+  when: ansible_os_family == "Debian"
 
-- include: config.yml
+- include_tasks: redhat.yml
+  when: ansible_os_family == "RedHat"
 
-- include: service.yml
+- include_tasks: config.yml
 
-- include: plugins.yml
+- include_tasks: service.yml
+
+- include_tasks: plugins.yml
